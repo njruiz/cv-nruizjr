@@ -1,0 +1,123 @@
+a {
+  color: #00adb5;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #00adb5;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #009ba3;
+}
+
+hr {
+  border-top: 5px dotted #393e46;
+  width: 5%;
+  margin-top: 20px;
+}
+
+.bottom-container {
+  background-color: #222831;
+  color: #eeeeee;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #eeeeee;
+  font-size: 20px;
+  background: #00adb5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #009ba3;
+  text-decoration: none;
+}
+
+.contact-me-description {
+  padding-bottom: 20px;
+}
+
+.copyright {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer-link {
+  display: inline-block;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.footer-link:hover {
+  color: #eeeeee;
+}
+
+.middle-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.educ-text {
+  margin: 0;
+}
+
+.educ-year {
+  color: #00adb5;
+  margin: 0;
+}
+
+.educ-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.img-marvelTime {
+  float: left;
+  width: 15%;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.profile-description {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #222831;
+  color: #eeeeee;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
