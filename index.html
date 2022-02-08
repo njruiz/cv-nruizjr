@@ -5,59 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nelson Ruiz Jr.</title>
+
+    <!-- CSS Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="images/favicon.ico" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+
+    <!-- Bootstrap 5 Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8877ac4bb6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <div class="top-container">
-      <h1>Nelson Francisco Ruiz Jr.</h1>
-      <h2>Senior Software Engineer</h2>
-    </div>
-
-    <div class="middle-container">
-      <div class="profile">
-        <img src="images/Nelson.png" alt="Nelson Profile Photo" />
-        <h2>Hello.</h2>
-        <p class="profile-description">
-          I am a goal-driven software engineer that is capable of performing the
-          software development life cycle in waterfall and agile development
-          methodologies mostly for desktop application projects.
-        </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>Education</h2>
-        <div class="educ-row">
-          <h3>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</h3>
-          <p class="educ-text">Cebu Institute of Technology - University</p>
-          <p class="educ-year">2012 - 2016</p>
+    <section id="nav-area">
+      <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+        <p class="navbar-brand"></p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-area"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#career-area">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-area">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio-area">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education-area">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements-area">Achievements</a>
+            </li>
+          </ul>
         </div>
-        <div class="educ-row">
-          <h3>Lorem Ipsum Dolor</h3>
-          <p class="skill-text">
-            Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
-            bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
-            eu, rutrum nam.
+      </nav>
+    </section>
+
+    <section id="header-area">
+      <div class="container-fluid top-container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Nelson Francisco Ruiz Jr.</h1>
+            <h2>Senior Software Engineer</h2>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/Nelson.png" alt="Nelson Profile Photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-area">
+      <div class="container-fluid section-container">
+        <div class="profile">
+          <h2>About me</h2>
+          <p>
+            I am a goal-driven software engineer that is capable of performing
+            the software development life cycle in waterfall and agile
+            development methodologies mostly for desktop application projects.
           </p>
         </div>
       </div>
-      <hr />
-      <div class="portfolio">
+    </section>
+
+    <section id="career-area">
+      <div class="education container-fluid section-container">
+        <h2>Work experience</h2>
+        <hr />
+        <div class="entry-container">
+          <h3 class="entry-title">Software Engineer III</h3>
+          <p class="entry-subtitle">
+            <i class="fas fa-briefcase"></i>
+            Kyocera Document Solutions Development Philippines Inc.
+          </p>
+          <p class="entry-year">April 2016 - Present</p>
+        </div>
+        <div class="entry-container">
+          <h3 class="entry-title">Software Engineer III</h3>
+          <p class="entry-subtitle">
+            <i class="fas fa-briefcase"></i>
+            Kyocera Document Solutions Development Philippines Inc.
+          </p>
+          <p class="entry-year">April 2016 - Present</p>
+        </div>
+        <div class="entry-container">
+          <h3 class="entry-title">Software Engineer III</h3>
+          <p class="entry-subtitle">
+            <i class="fas fa-briefcase"></i>
+            Kyocera Document Solutions Development Philippines Inc.
+          </p>
+          <p class="entry-year">April 2016 - Present</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education-area">
+      <div class="education container-fluid section-container">
+        <h2>Education</h2>
+        <hr />
+        <div class="entry-container">
+          <h3 class="entry-title">Bachelor of Science in Computer Science</h3>
+          <p class="entry-subtitle">
+            <i class="fas fa-graduation-cap"></i>
+            Cebu Institute of Technology - University
+          </p>
+          <p class="entry-year">2012 - 2016</p>
+        </div>
+        <div class="entry-container">
+          <h3 class="entry-title">High School</h3>
+          <p class="entry-subtitle">
+            <i class="fas fa-graduation-cap"></i>
+            Minglanilla National Science High School
+          </p>
+          <p class="entry-year">2008 - 2012</p>
+        </div>
+        <div class="entry-container">
+          <h3 class="entry-title">Grade School</h3>
+          <p class="entry-subtitle">
+            <i class="fas fa-graduation-cap"></i>
+            Minglanilla Special Science Elementary School
+          </p>
+          <p class="entry-year">2001 - 2008</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio-area">
+      <div class="portfolio container-fluid section-container">
         <h2>Portfolio</h2>
-        <div class="educ-row">
+        <hr />
+        <div class="entry-container">
           <img
             class="img-marvelTime"
             src="https://cdn-icons-png.flaticon.com/512/1674/1674298.png"
             alt="Deadpool"
           />
-          <h3>Marvel Time</h3>
+          <h3 class="entry-title">Marvel Time</h3>
           <p>
             Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
             bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
@@ -65,7 +191,9 @@
           </p>
         </div>
       </div>
-      <hr />
+    </section>
+
+    <section id="contact-area">
       <div class="contact-me">
         <h2>Get In Touch</h2>
         <h3>Lorem ipsum dolor sit amet, non elit.</h3>
@@ -73,15 +201,21 @@
           Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
           tellus donec dui, ornare erat.
         </p>
-        <a class="btn" href="mailto:njruiz.nr@gmail.com">CONTACT ME</a>
+        <button class="btn btn-dark">
+          <i class="far fa-envelope"></i> Contact Me
+        </button>
       </div>
-    </div>
+    </section>
 
     <div class="bottom-container">
-      <a class="footer-link" href="linkedin.com/in/ruiznelson">LinkedIn</a>
-      <a class="footer-link" href="linkedin.com/in/ruiznelson">Github</a>
+      <a class="footer-link" href="linkedin.com/in/ruiznelson"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a class="footer-link" href="linkedin.com/in/ruiznelson"
+        ><i class="fab fa-github-square"></i
+      ></a>
       <p class="copyright">
-        © Nelson Ruiz Jr. <span style="color: #00adb5">|</span> 2022
+        © Nelson Francisco Ruiz Jr. <span style="color: #00adb5">|</span> 2022
       </p>
     </div>
   </body>

@@ -1,36 +1,33 @@
-a {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&display=swap");
+
+/* Selectors are in alphabetical order */
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #00adb5;
 }
 
 body {
   margin: 0;
   text-align: center;
-  font-family: "Merriweather Sans", sans-serif;
-}
-
-h1 {
-  margin: 50px auto 0 auto;
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  line-height: 2;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
-  color: #00adb5;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #009ba3;
 }
 
 hr {
-  border-top: 5px dotted #393e46;
-  width: 5%;
-  margin-top: 20px;
+  width: 3rem;
+  border-top: solid 2px #00adb5;
+  margin: 20px auto 20px 0;
+  text-align: left;
+}
+
+.big-heading {
+  color: #eeeeee;
+  font-size: 2.5rem;
 }
 
 .bottom-container {
@@ -41,26 +38,12 @@ hr {
   padding-bottom: 20px;
 }
 
-.btn {
-  -webkit-border-radius: 50;
-  -moz-border-radius: 50;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #eeeeee;
-  font-size: 20px;
-  background: #00adb5;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  margin-top: 20px;
-}
-
-.btn:hover {
-  background: #009ba3;
-  text-decoration: none;
-}
-
 .contact-me-description {
   padding-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 5% 10%;
 }
 
 .copyright {
@@ -69,36 +52,32 @@ hr {
   padding-top: 20px;
 }
 
-.footer-link {
-  display: inline-block;
-  padding-right: 10px;
-  text-align: center;
+.entry-container {
+  padding-bottom: 2rem;
+}
+.entry-title {
+  color: #222831;
+  font-family: "Montserrat";
 }
 
-.footer-link:hover {
-  color: #eeeeee;
+.entry-subtitle {
+  margin-bottom: 0;
 }
 
-.middle-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  margin-bottom: 40px;
-}
-
-.educ-text {
-  margin: 0;
-}
-
-.educ-year {
+.entry-year {
   color: #00adb5;
   margin: 0;
 }
 
-.educ-row {
-  width: 50%;
-  margin: 50px auto;
-  text-align: left;
+.footer-link {
+  display: inline-block;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer-link:hover {
+  color: #eeeeee;
 }
 
 .img-marvelTime {
@@ -106,6 +85,35 @@ hr {
   width: 15%;
   margin-right: 30px;
   border-radius: 50%;
+}
+
+.section-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.navbar-brand {
+  margin: auto 0;
+}
+
+.navbar-collapse {
+  text-align: right;
+}
+
+.navbar-custom {
+  background-color: #222831;
 }
 
 .profile-description {
@@ -116,8 +124,5 @@ hr {
 
 .top-container {
   background-color: #222831;
-  color: #eeeeee;
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
