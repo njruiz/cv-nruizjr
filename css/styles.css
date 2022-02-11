@@ -94,6 +94,7 @@ ul.timeline > li:hover {
 
 .about-content img {
   object-fit: cover;
+  width: 100%;
   border-radius: 50%;
   border: 0;
   transition: border 1s;
@@ -109,6 +110,7 @@ ul.timeline > li:hover {
 .about-img {
   text-align: center;
   padding-bottom: 1.5rem;
+  padding-inline: 2rem;
 }
 
 .btn-back-to-top {
@@ -433,10 +435,20 @@ ul.responsibilities {
 
 @media (max-width: 590px) {
   .header-area .header-text-lg {
-    font-size: 65px;
+    font-size: 60px;
   }
 
   .header-area .header-text-md {
-    font-size: 35px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 476px) {
+  .header-area .header-text-lg {
+    font-size: 43px;
+  }
+
+  .header-area .header-text-md {
+    font-size: 20px;
   }
 }
