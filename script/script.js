@@ -24,11 +24,11 @@ $(document).ready(function(){
         }
       });
     
-      $('.btn-back-to-top').click(function() {
-        $('html, body').animate({
-          scrollTop: 0
-        }, 100);
-      });
+    $('.btn-back-to-top').click(function() {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 100);
+    });
 
     // typing text animation script
     var typed = new Typed(".typing", {
@@ -37,4 +37,36 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
+
+    $('#skillsAccordion .collapsed').click(function() {
+        if ($('#skillsAccordion .collapsed').length === 0) {
+          $('.collapse-toggle:contains("Collapse")').show();
+          $('.collapse-toggle:contains("Expand")').hide();
+        }
+    
+        if ($('#skillsAccordion .collapsed').length === 6) {
+          $('.collapse-toggle:contains("Expand")').show();
+          $('.collapse-toggle:contains("Collapse")').hide();
+        }
+      });
+    
+      $('.collapse-toggle').click(function() {
+        const buttonText = $(this).text()
+        $('.collapse-toggle').toggle();
+    
+        let skillList = [].slice.call($('.collapse'))
+    
+        skillList = skillList.filter(e => {
+          switch (buttonText) {
+            case 'Expand All':
+              return !$(e).hasClass('show')
+            case 'Collapse All':
+              return $(e).hasClass('show')
+          }
+        })
+    
+        skillList.forEach(e => {
+          new bootstrap.Collapse(e)
+        })
+      });
 });
