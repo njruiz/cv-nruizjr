@@ -73,7 +73,7 @@ ul.timeline > li {
 
 ul.timeline > li:before {
   content: " ";
-  background: white;
+  background: #fff;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
@@ -204,12 +204,6 @@ ul.timeline > li:hover {
   margin: 10px 0 7px 0;
 }
 
-.achievement-title {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-
 .btn-back-to-top {
   position: fixed;
   bottom: 0;
@@ -218,6 +212,11 @@ ul.timeline > li:hover {
   color: #fff;
   background-color: #00adb5;
   z-index: 1;
+}
+
+.btn-download {
+  background-color: #00adb5;
+  border-color: #00adb5;
 }
 
 .big-heading {

@@ -69,4 +69,8 @@ $(document).ready(function(){
           new bootstrap.Collapse(e)
         })
       });
+
+      $('#contactMeBtn').on('click', function(event) {
+        window.location = "mailto:njruiz.nr@gmail.com";
+      });
 });
