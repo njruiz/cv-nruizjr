@@ -917,7 +917,9 @@
       <h2 class="title">Achievements</h2>
       <div class="container-fluid section-container">
         <div class="achievements-container row">
-          <div class="achievement-column col-lg-4 col-md-6">
+          <div
+            class="achievement-column col-lg-4 col-md-6 d-flex align-items-stretch"
+          >
             <div class="card">
               <div class="card-body">
                 <i class="bi bi-award"></i>
@@ -932,7 +934,9 @@
             </div>
           </div>
 
-          <div class="achievement-column col-lg-4 col-md-6">
+          <div
+            class="achievement-column col-lg-4 col-md-6 d-flex align-items-stretch"
+          >
             <div class="card">
               <div class="card-body">
                 <i class="bi bi-award"></i>
@@ -940,8 +944,9 @@
                 <p>
                   Certificate earned for completing this Udemy course which is a
                   comprehensive web development course by Dr Angela Yu that
-                  covers tools and technologies for being a Full Stack
-                  Developer. More details are stated in course description.
+                  covers a massive amount of tools and technologies for being a
+                  Full Stack Developer. More details are stated in course
+                  description.
                 </p>
                 <a
                   href="https://www.udemy.com/certificate/UC-95e3f366-e4f2-445b-865d-301d2c25a6d7/"
@@ -952,16 +957,17 @@
             </div>
           </div>
 
-          <div class="achievement-column col-lg-4">
+          <div class="achievement-column col-lg-4 d-flex align-items-stretch">
             <div class="card">
               <div class="card-body">
                 <i class="bi bi-award"></i>
                 <div class="achievement-title">ASPNET Core & Angular</div>
                 <p>
-                  Certificate earned for completing this Udemy course which
-                  discusses practical example on how to build a fully functional
-                  web application using ASP.NET Core API and Angular from start
-                  to finish. More details are stated in course description.
+                  Certificate earned for completing this Udemy course by
+                  instructor Neil Cummings which discusses a practical example
+                  on how to build a fully functional web application using
+                  ASP.NET Core API and Angular from start to finish. More
+                  details are stated in course description.
                 </p>
                 <a
                   href="https://www.udemy.com/certificate/UC-81db6a28-9325-4830-9b59-a6a072af6737/"
@@ -980,55 +986,71 @@
       <div class="portfolio container-fluid section-container">
         <h2 class="title">Portfolio</h2>
         <div class="portfolio-item-container">
-          <div class="portfolio-item">
-            <img
-              class="img-marvelTime"
-              src="https://cdn-icons-png.flaticon.com/512/1674/1674298.png"
-              alt="Deadpool"
-            />
-            <h3 class="portfolio-title">Marvel Time</h3>
-            <p>
-              Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
-              bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
-              eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed
-              consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
-              Curabitur wisi, quisque vel eu, rutrum nam. Lorem ipsum dolor sit
-              amet, mauris sed consectetuer. Etiam et eu, bibendum interdum,
-              lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-              Lorem ipsum dolor sit amet, mauris sed consectetuer.
-            </p>
-            <div>
-              <i class="bi bi-code-slash"></i>
-              <span>
-                C# ASP.Net Core, Typescript, PostgreSQL, Angular, Bootstrap
-                5</span
-              >
+          <div class="portfolio-item row">
+            <div class="portfolio-img-container col-lg-2">
+              <img
+                class="img-marvelTime"
+                src="https://cdn-icons-png.flaticon.com/512/1674/1674298.png"
+                alt="Deadpool"
+              />
+            </div>
+
+            <div class="col-lg-10">
+              <a href="http://marveltime.herokuapp.com/" target="_blank">
+                <h3 class="portfolio-title">Marvel Time</h3>
+              </a>
+              <p>
+                A fully functional web application which is the product of the
+                ASPNET Core and Angular course I took in Udemy. The main
+                technologies used in this application is ASP.NET Core for
+                building the Web API (Back-End) and Angular v12 for the
+                Front-End. This app includes reactive forms, validations,
+                authentication, routing, profile and admin management, and many
+                more things. Private messaging feature is also implemented in
+                this app wherein SignalR is used for real time presence and live
+                messaging between users. As pending for improvement, this app is
+                yet to be responsive.
+              </p>
+              <div>
+                <i class="bi bi-code-slash"></i>
+                <span>
+                  C# ASP.Net Core, Typescript, PostgreSQL, Angular, Bootstrap
+                  5</span
+                >
+              </div>
             </div>
           </div>
           <hr />
-          <div class="portfolio-item">
-            <img
-              class="img-marvelTime2"
-              src="https://cdn-icons-png.flaticon.com/512/1674/1674298.png"
-              alt="Deadpool"
-            />
-            <h3 class="portfolio-title">Lorem Ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
-              bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
-              eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed
-              consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
-              Curabitur wisi, quisque vel eu, rutrum nam. Lorem ipsum dolor sit
-              amet, mauris sed consectetuer. Etiam et eu, bibendum interdum,
-              lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-              Lorem ipsum dolor sit amet, mauris sed consectetuer.
-            </p>
-            <div>
-              <i class="bi bi-code-slash"></i>
-              <span>
-                C# ASP.Net Core, Typescript, PostgreSQL, Angular, Bootstrap
-                5</span
-              >
+          <div class="portfolio-item-container">
+            <div class="portfolio-item row d-flex flex-wrap-reverse">
+              <div class="col-lg-10">
+                <h3 class="portfolio-title">Lorem Ipsum</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et
+                  eu, bibendum interdum, lacus quis mauris. Curabitur wisi,
+                  quisque vel eu, rutrum nam. Lorem ipsum dolor sit amet, mauris
+                  sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
+                  mauris. Curabitur wisi, quisque vel eu, rutrum nam. Lorem
+                  ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
+                  bibendum interdum, lacus quis mauris. Curabitur wisi, quisque
+                  vel eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed
+                  consectetuer.
+                </p>
+                <div>
+                  <i class="bi bi-code-slash"></i>
+                  <span>
+                    C# ASP.Net Core, Typescript, PostgreSQL, Angular, Bootstrap
+                    5</span
+                  >
+                </div>
+              </div>
+              <div class="portfolio-img-container col-lg-2">
+                <img
+                  class="img-marvelTime"
+                  src="https://cdn-icons-png.flaticon.com/512/1674/1674292.png"
+                  alt="Superman"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -1071,10 +1093,10 @@
 
     <section id="footer" class="section-colored">
       <div class="footer container-fluid section-container">
-        <a class="footer-link" href="linkedin.com/in/ruiznelson"
+        <a class="footer-link" href="https://www.linkedin.com/in/ruiznelson"
           ><i class="bi bi-linkedin"></i
         ></a>
-        <a class="footer-link" href="linkedin.com/in/ruiznelson"
+        <a class="footer-link" href="https://github.com/njruiz"
           ><i class="bi bi-github"></i
         ></a>
         <p class="copyright">© Nelson Francisco Ruiz Jr. <span>|</span> 2022</p>

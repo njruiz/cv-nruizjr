@@ -348,9 +348,7 @@ ul.timeline > li:hover {
 }
 
 .img-marvelTime {
-  float: left;
-  width: 15%;
-  margin-right: 30px;
+  width: 100%;
   border-radius: 50%;
   background-color: #fff;
 }
@@ -424,6 +422,10 @@ ul.timeline > li:hover {
   color: #000;
 }
 
+.portfolio-img-container {
+  padding-bottom: 10px;
+}
+
 .portfolio-item {
   padding-bottom: 20px;
 }
@@ -435,10 +437,7 @@ ul.timeline > li:hover {
   background-color: #fff;
 }
 
-.portfolio-item span {
-  color: #08d9d6;
-}
-
+.portfolio-item span,
 .portfolio-title {
   color: #08d9d6;
 }
@@ -528,6 +527,14 @@ ul.responsibilities {
 @media (max-width: 991px) {
   .section-container {
     padding: 0 50px;
+  }
+
+  .img-marvelTime {
+    width: 30%;
+  }
+
+  .portfolio-item-container {
+    text-align: center;
   }
 }
 
