@@ -170,6 +170,46 @@ ul.timeline > li:hover {
   color: #fff;
 }
 
+.achievement-column {
+  color: #fff;
+  padding: 2%;
+}
+
+.achievements-container .card {
+  background: #000;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.achievements-container .card:hover {
+  background: #00adb5;
+}
+
+.achievements-container .card i {
+  font-size: 50px;
+  color: #08d9d6;
+  transition: color 0.3s ease;
+}
+
+.achievements-container .card:hover i,
+.achievements-container .card:hover .achievement-title {
+  color: #fff;
+}
+
+.achievement-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.achievement-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
 .btn-back-to-top {
   position: fixed;
   bottom: 0;
