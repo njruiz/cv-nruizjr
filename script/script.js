@@ -1,28 +1,21 @@
 $(document).ready(function(){
-    
-    $(window).scroll(function(){
-        // sticky navbar on scroll script
-        if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
-        }else{
-            $('.navbar').removeClass("sticky");
-        }
-        
-        // scroll-up button show/hide script
-        if(this.scrollY > 500){
-            $('.scroll-up-btn').addClass("show");
-        }else{
-            $('.scroll-up-btn').removeClass("show");
-        }
-    });
 
     $(window).scroll(function() {
-        if ($(this).scrollTop()) {
-          $('.btn-back-to-top').fadeIn(200);
-        } else {
-          $('.btn-back-to-top').fadeOut(200);
-        }
-      });
+      // sticky navbar on scroll script
+      if(this.scrollY > 20) {
+        $('.navbar').addClass("sticky");
+      } else {
+          $('.navbar').removeClass("sticky");
+      }
+
+      if ($(this).scrollTop()) {
+        document.getElementsByClassName("btn-back-to-top")[0].style.visibility = "visible";
+        $('.btn-back-to-top').fadeIn(200);
+      } else {        
+        document.getElementsByClassName("btn-back-to-top")[0].style.visibility = "hidden";
+        $('.btn-back-to-top').fadeOut(200);
+      }
+    });
     
     $('.btn-back-to-top').click(function() {
     $('html, body').animate({
