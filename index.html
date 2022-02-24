@@ -52,6 +52,7 @@
   </head>
 
   <body>
+    <!-- Back To Top Button -->
     <a
       href="javascript:void(0)"
       class="btn btn-back-to-top bi bi-chevron-double-up m-4 py-1"
@@ -59,46 +60,43 @@
 
     <!-- Nav Area -->
     <section id="nav-area">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar">
         <div class="section-container">
-          <div class="navbar-brand">Portfo<span>lio.</span></div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#about-area"
-                  >About me</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills-area">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#career-area">Career</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education-area">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#achievements-area">Achievements</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio-area">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-area">Contact me</a>
-              </li>
-            </ul>
+          <a href="#">
+            <div class="navbar-brand">Portfo<span>lio.</span></div>
+          </a>
+
+          <ul class="navbar-menu-list">
+            <div class="navbar-toggler cancel-btn">
+              <i class="bi bi-x-lg"></i>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about-area"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-area">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#career-area">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education-area">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements-area">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio-area">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-area">Contact me</a>
+            </li>
+          </ul>
+
+          <div class="navbar-toggler menu-btn">
+            <i class="bi bi-list"></i>
           </div>
         </div>
       </nav>
@@ -132,31 +130,30 @@
         <h2 class="title">About me</h2>
         <div class="container-content about-content">
           <div class="row">
-            <div class="col-lg-5 about-img">
+            <div class="col-lg-5 about-img-container">
               <img src="images/NJ-Cropped.jpg" alt="Nelson Profile Photo" />
             </div>
             <div class="col-lg-7">
               <p>
-                I am a goal-driven senior software engineer who is capable of
+                I am a goal-driven senior software engineer, capable of
                 performing the software development life cycle in waterfall and
-                agile methodologies for web development, desktop and scripting
-                from requirements analysis to deploymentment and project
-                maintenance.
+                agile methodologies. My professional experience in developing
+                web, desktop and scripting applications ranges from requirements
+                analysis up to deployment and project maintenance.
               </p>
               <br />
               <p>
                 As a senior member, I get the opportunity to impart my knowledge
                 and expertise to my colleagues to achieve optimal results for
                 the project development. Aside from working with a team, I have
-                also been practicing independence and taking initiative as part
-                of building trust with my leaders where I can be seen as
-                dependable and being able to get the job done even with minimal
-                supervision.
+                also been practicing independence by taking initiative of what
+                is required for my projects. Through this, I can assure my
+                superiors that I am dependable and capable in getting the job
+                done even with minimal supervision.
               </p>
               <br />
               <p>
-                There is so much more about me as an IT professional. You can
-                download a copy of my resume for your offline reference.
+                You can download a copy of my resume for your offline reference.
               </p>
               <a
                 href="files/NelsonRuizJr_CV.pdf"
@@ -772,8 +769,8 @@
         <ul class="timeline">
           <li>
             <div class="career-title">
-              <strong>Software Engineer III</strong
-              ><span> (April 2016 - Present)</span>
+              <strong>Software Engineer III</strong>
+              <p>(April 2016 - Present)</p>
             </div>
             <p class="career-subtitle">
               <i class="bi bi-briefcase"></i>
@@ -781,7 +778,7 @@
             </p>
             <p class="career-role">
               <strong>Role:</strong> Accountable for the development of utility
-              software for Kyocera multifunction printers
+              software applications for Kyocera multifunction printers
             </p>
             <strong>Key responsibilities:</strong>
             <ul class="responsibilities">
@@ -822,7 +819,8 @@
           </li>
           <li>
             <div class="career-title">
-              <strong>Freelancer</strong><span> (May 2021 - October 2021)</span>
+              <strong>Freelancer</strong>
+              <p>(May 2021 - October 2021)</p>
             </div>
             <strong>Handled Projects:</strong>
             <ul class="projects">
@@ -850,7 +848,8 @@
           </li>
           <li>
             <div class="career-title">
-              <strong>Intern</strong><span> (March 2015 - June 2015)</span>
+              <strong>Intern</strong>
+              <p>(March 2015 - June 2015)</p>
             </div>
             <p class="career-subtitle">
               <i class="bi bi-briefcase"></i>
@@ -1008,7 +1007,7 @@
                 authentication, routing, profile and admin management, and many
                 more things. Private messaging feature is also implemented in
                 this app wherein SignalR is used for real time presence and live
-                messaging between users. As pending for improvement, this app is
+                messaging between users. As a todo for improvement, this app is
                 yet to be responsive.
               </p>
               <div>
@@ -1017,39 +1016,6 @@
                   C# ASP.Net Core, Typescript, PostgreSQL, Angular, Bootstrap
                   5</span
                 >
-              </div>
-            </div>
-          </div>
-          <hr />
-          <div class="portfolio-item-container">
-            <div class="portfolio-item row d-flex flex-wrap-reverse">
-              <div class="col-lg-10">
-                <h3 class="portfolio-title">Lorem Ipsum</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et
-                  eu, bibendum interdum, lacus quis mauris. Curabitur wisi,
-                  quisque vel eu, rutrum nam. Lorem ipsum dolor sit amet, mauris
-                  sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
-                  mauris. Curabitur wisi, quisque vel eu, rutrum nam. Lorem
-                  ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
-                  bibendum interdum, lacus quis mauris. Curabitur wisi, quisque
-                  vel eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed
-                  consectetuer.
-                </p>
-                <div>
-                  <i class="bi bi-code-slash"></i>
-                  <span>
-                    C# ASP.Net Core, Typescript, PostgreSQL, Angular, Bootstrap
-                    5</span
-                  >
-                </div>
-              </div>
-              <div class="portfolio-img-container col-lg-2">
-                <img
-                  class="img-marvelTime"
-                  src="https://cdn-icons-png.flaticon.com/512/1674/1674292.png"
-                  alt="Superman"
-                />
               </div>
             </div>
           </div>
@@ -1091,12 +1057,16 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <section id="footer" class="section-colored">
       <div class="footer container-fluid section-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/ruiznelson"
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/ruiznelson"
+          target="_blank"
           ><i class="bi bi-linkedin"></i
         ></a>
-        <a class="footer-link" href="https://github.com/njruiz"
+        <a class="footer-link" href="https://github.com/njruiz" target="_blank"
           ><i class="bi bi-github"></i
         ></a>
         <p class="copyright">© Nelson Francisco Ruiz Jr. <span>|</span> 2022</p>
