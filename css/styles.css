@@ -215,6 +215,11 @@ ul.timeline > li:hover {
 }
 
 .btn-download {
+  background-color: #08d9d6;
+  border-color: #08d9d6;
+}
+
+.btn-download:hover {
   background-color: #00adb5;
   border-color: #00adb5;
 }
